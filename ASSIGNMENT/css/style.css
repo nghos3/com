@@ -4,9 +4,10 @@
 	background-color: black;
 	display:flex;
 	font-family: Ubuntu;
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	height: 54px;
+	z-index: 1;
 
 }
 
@@ -29,6 +30,7 @@
 	height: 66vh;
 	width: 100%;
 	position: absolute;
+	background-attachment: fixed;
 	top: 50px;
 
 }
