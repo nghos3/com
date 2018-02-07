@@ -102,13 +102,18 @@ height: 400px;
  display: flex;
  flex-direction:column;
  justify-content:space-between;
+ padding-top:170px;
  }
  .ex2{
  flex:1;
  display: flex;
  flex-direction:column;
  justify-content:space-between;
+ padding-top:170px;
  }
+ 
+ 
+
  .extras h2{
  color: white;
  font-family: 'Encode Sans Expanded';
@@ -144,12 +149,7 @@ height: 400px;
  flex:1;
  
  }
- .ex2 {
- flex:1;
- display: flex;
- flex-direction:column;
- }
-
+ 
 .foot{  
 	    width: 100%;
        position: absolute;
