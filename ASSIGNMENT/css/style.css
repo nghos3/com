@@ -1,3 +1,4 @@
+ 
 
 .main{
 	background-color: black;
@@ -101,15 +102,15 @@ height: 400px;
  padding-left:15%;
  display: flex;
  flex-direction:column;
- justify-content:space-between;
- padding-top:170px;
+ justify-content:space-around;
+  
  }
  .ex2{
  flex:1;
  display: flex;
  flex-direction:column;
- justify-content:space-between;
- padding-top:170px;
+ justify-content:space-around;
+ 
  }
  
  
@@ -134,11 +135,11 @@ height: 400px;
  }
  .extras a{
  text-decoration:none;
- color:white;
+ color:grey;
  }
  .extras a:hover{
   text-decoration:underline;
- color:grey;
+ color:white;
  }
  .x1{
  flex:1;
