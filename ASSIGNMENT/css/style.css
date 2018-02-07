@@ -1,9 +1,8 @@
 
-.main
-{
+.main{
 	background-color: black;
 	display:flex;
-	font-family: monospace;
+	font-family: Ubuntu;
 	position: absolute;
 	width: 100%;
 	height: 54px;
@@ -19,7 +18,8 @@
 	display: flex;
    flex: 1;
    justify-content: flex-start;
-
+   font-family: 'Ubuntu';
+   font-size:13px;
 }
 
 .hero-section{
@@ -33,7 +33,7 @@
 }
 .hero-section h1{
 margin-left: 20%;
-font-family: 'monospace';
+font-family: 'PT Sans Narrow', sans-serif;
 font-size: 50px;
 color: white;
 }
@@ -41,7 +41,7 @@ color: white;
 font-size:20px;
 margin-left: 10%;
 margin-right:10%;
-font-family: 'monospace';
+;
 color: white;
 
 }
@@ -67,6 +67,7 @@ color: white;
 margin-left: 25%;
 text-decoration:none;
 color: grey;
+font-family: 'Encode Sans Expanded';
 }
 
 .image-container a:hover{
@@ -110,10 +111,10 @@ height: 400px;
  }
  .extras h2{
  color: white;
- font-family: monospace;
+ font-family: 'Encode Sans Expanded';
  }
  .x1{
- font-family: monospace;
+ font-family: 'Encode Sans Expanded';
  min-width:200px;
  align-self:left;
  box-shadow: 0 2px 5px 0 black;
@@ -124,7 +125,7 @@ height: 400px;
  align-self:left;
  box-shadow: 0 2px 5px 0 black;
  max-height:50px;
- font-family: monospace;
+ font-family: 'Encode Sans Expanded';
  }
  .extras a{
  text-decoration:none;
@@ -138,6 +139,7 @@ height: 400px;
  flex:1;
  
  }
+ 
  .x2{
  flex:1;
  
@@ -172,6 +174,7 @@ height: 400px;
     
 }
 .foot a{
+      font-family: 'Ubuntu';
          color: grey;
 }
 
@@ -182,6 +185,7 @@ height: 400px;
  
 .foot p{
 color: white;
+font-family: 'Ubuntu';
 }
 nav li 
 {
